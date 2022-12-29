@@ -1,0 +1,21 @@
+name: CI
+on: [push, pull_request]
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Code Checkout
+        uses: actions/checkout@v2
+      - name: Setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "16.17.1"
+      - name: Setup
+        run: yarn
+      - name: Build
+        run: yarn build
+      - name: Test
+        run: yarn test
+      - name: Doc
+        run: yarn doc

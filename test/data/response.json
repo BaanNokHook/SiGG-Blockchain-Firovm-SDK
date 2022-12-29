@@ -1,0 +1,270 @@
+{
+  "getTokenBalance": {
+    "result": "7.74892000",
+    "error": null,
+    "id": "1640103454293"
+  },
+  "getTokenDecimals": {
+    "result": 18,
+    "error": null,
+    "id": "1640103454292"
+  },
+  "getBestBlockHash": {
+    "result": {
+      "balance": 10669362215808,
+      "received": 27522433334959,
+      "immature": 0
+    },
+    "error": null,
+    "id": "1640154247156"
+  },
+  "payToURIWithNative": {
+    "getAddressUtxos": {
+      "jsonrpc": "2.0",
+      "result": [
+        {
+          "address": "TUiJuojfRjhZsUgZSa4BGRzAELVQJXgdjs",
+          "txid": "5e8fbdc128653fa5a1c730c2db75595b48f013ee420da2d13ac04e575c9bf506",
+          "outputIndex": 1,
+          "script": "76a9147f288a70fea402dcf5ddbadd155ae7545af4fae088ac",
+          "satoshis": 484010000000,
+          "height": 74692
+        }
+      ],
+      "id": "1640800890624"
+    },
+    "getHexAddress": {
+      "result": "7f288a70fea402dcf5ddbadd155ae7545af4fae0",
+      "error": null,
+      "id": "1641528285808"
+    },
+    "sendRawTransaction": {
+      "result": "85b4595af2d35e290c6db247900b3dbfcc405492ca17540598d7204038fac63b",
+      "error": null,
+      "id": "1641527410191"
+    }
+  },
+  "payToURIWithToken": {
+    "getAddressUtxos": {
+      "jsonrpc": "2.0",
+      "result": [
+        {
+          "address": "TUiJuojfRjhZsUgZSa4BGRzAELVQJXgdjs",
+          "txid": "5e8fbdc128653fa5a1c730c2db75595b48f013ee420da2d13ac04e575c9bf506",
+          "outputIndex": 1,
+          "script": "76a9147f288a70fea402dcf5ddbadd155ae7545af4fae088ac",
+          "satoshis": 484010000000,
+          "height": 74692
+        }
+      ],
+      "id": "1640800890624"
+    },
+    "getHexAddress": {
+      "result": "7f288a70fea402dcf5ddbadd155ae7545af4fae0",
+      "error": null,
+      "id": "1641528285808"
+    },
+    "callContract": {
+      "jsonrpc": "2.0",
+      "result": {
+        "address": "",
+        "executionResult": {
+          "codeDeposit": 2,
+          "depositSize": 13033,
+          "excepted": "None",
+          "exceptedMessage": "",
+          "gasForDeposit": 4294523264,
+          "gasRefunded": 0,
+          "gasUsed": 3050630,
+          "newAddress": "d33b70b905f59fac92d69d0978917524660a5f13",
+          "output": "608060405234801561001057600080fd5b506004"
+        },
+        "transactionReceipt": {
+          "bloom": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "gasUsed": 3050630,
+          "log": [],
+          "stateRoot": "ea12d571c3eb101620ff1cbacffb244cfb6defd911510b79e9207fd506a38ffd",
+          "utxoRoot": "56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421"
+        }
+      }
+    },
+    "sendRawTransaction": {
+      "result": "85b4595af2d35e290c6db247900b3dbfcc405492ca17540598d7204038fac63b",
+      "error": null,
+      "id": "1641527410191"
+    }
+  },
+  "callDecimals": {
+    "result": {
+      "address": "8a62f1a163aa7fc9e1ba370eb27d52cdbbb60949",
+      "executionResult": {
+        "gasUsed": 21496,
+        "excepted": "None",
+        "newAddress": "8a62f1a163aa7fc9e1ba370eb27d52cdbbb60949",
+        "output": "0000000000000000000000000000000000000000000000000000000000000012",
+        "codeDeposit": 0,
+        "gasRefunded": 0,
+        "depositSize": 0,
+        "gasForDeposit": 0,
+        "exceptedMessage": ""
+      },
+      "transactionReceipt": {
+        "stateRoot": "0fe3a7d53a524288a3933a8253344b1f4282420058133e86488e31d966eaf146",
+        "utxoRoot": "56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+        "gasUsed": 21496,
+        "bloom": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "log": []
+      }
+    },
+    "error": null,
+    "id": "1641372328506"
+  },
+  "callBalanceOf": {
+    "result": {
+      "address": "8a62f1a163aa7fc9e1ba370eb27d52cdbbb60949",
+      "executionResult": {
+        "gasUsed": 22995,
+        "excepted": "None",
+        "newAddress": "8a62f1a163aa7fc9e1ba370eb27d52cdbbb60949",
+        "output": "0000000000000000000000000000000000000000000000056bc75e2d63100000",
+        "codeDeposit": 0,
+        "gasRefunded": 0,
+        "depositSize": 0,
+        "gasForDeposit": 0,
+        "exceptedMessage": ""
+      },
+      "transactionReceipt": {
+        "stateRoot": "0fe3a7d53a524288a3933a8253344b1f4282420058133e86488e31d966eaf146",
+        "utxoRoot": "56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+        "gasUsed": 22995,
+        "bloom": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "log": []
+      }
+    },
+    "error": null,
+    "id": "1641373624363"
+  },
+  "callSymbol": {
+    "result": {
+      "address": "8a62f1a163aa7fc9e1ba370eb27d52cdbbb60949",
+      "executionResult": {
+        "gasUsed": 24671,
+        "excepted": "None",
+        "newAddress": "8a62f1a163aa7fc9e1ba370eb27d52cdbbb60949",
+        "output": "00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000003474c440000000000000000000000000000000000000000000000000000000000",
+        "codeDeposit": 0,
+        "gasRefunded": 0,
+        "depositSize": 0,
+        "gasForDeposit": 0,
+        "exceptedMessage": ""
+      },
+      "transactionReceipt": {
+        "stateRoot": "0fe3a7d53a524288a3933a8253344b1f4282420058133e86488e31d966eaf146",
+        "utxoRoot": "56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+        "gasUsed": 24671,
+        "bloom": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "log": []
+      }
+    },
+    "error": null,
+    "id": "1641373752047"
+  },
+  "callAllowance": {
+    "result": {
+      "address": "8a62f1a163aa7fc9e1ba370eb27d52cdbbb60949",
+      "executionResult": {
+        "gasUsed": 23763,
+        "excepted": "None",
+        "newAddress": "8a62f1a163aa7fc9e1ba370eb27d52cdbbb60949",
+        "output": "0000000000000000000000000000000000000000000000000000000000000064",
+        "codeDeposit": 0,
+        "gasRefunded": 0,
+        "depositSize": 0,
+        "gasForDeposit": 0,
+        "exceptedMessage": ""
+      },
+      "transactionReceipt": {
+        "stateRoot": "6ea077d4f8987e7ee15f530504361e6e4d3e5734a5c466a7a0b88f08f6f6f94e",
+        "utxoRoot": "56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+        "gasUsed": 23763,
+        "bloom": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "log": []
+      }
+    },
+    "error": null,
+    "id": "1641537243073"
+  },
+  "sendApprove": {
+    "getAddressUtxos": {
+      "jsonrpc": "2.0",
+      "result": [
+        {
+          "address": "TUiJuojfRjhZsUgZSa4BGRzAELVQJXgdjs",
+          "txid": "5e8fbdc128653fa5a1c730c2db75595b48f013ee420da2d13ac04e575c9bf506",
+          "outputIndex": 1,
+          "script": "76a9147f288a70fea402dcf5ddbadd155ae7545af4fae088ac",
+          "satoshis": 484010000000,
+          "height": 74692
+        }
+      ],
+      "id": "1640800890624"
+    },
+    "fromHexAddress": {
+      "result": "TNavnGjh3DLtxg22ywkirFE6zF7MstiWdc",
+      "error": null,
+      "id": "1641528285808"
+    },
+    "sendRawTransaction": {
+      "result": "f8de1c3174e24a067b152acd633f798750b47388ea927f5a17a6e77997d87173",
+      "error": null,
+      "id": "1641526403526"
+    }
+  },
+  "sendTransfer": {
+    "getAddressUtxos": {
+      "jsonrpc": "2.0",
+      "result": [
+        {
+          "address": "TUiJuojfRjhZsUgZSa4BGRzAELVQJXgdjs",
+          "txid": "5e8fbdc128653fa5a1c730c2db75595b48f013ee420da2d13ac04e575c9bf506",
+          "outputIndex": 1,
+          "script": "76a9147f288a70fea402dcf5ddbadd155ae7545af4fae088ac",
+          "satoshis": 484010000000,
+          "height": 74692
+        }
+      ],
+      "id": "1640800890624"
+    },
+    "fromHexAddress": {
+      "result": "TNavnGjh3DLtxg22ywkirFE6zF7MstiWdc",
+      "error": null,
+      "id": "1641528285808"
+    },
+    "sendRawTransaction": {
+      "result": "85b4595af2d35e290c6db247900b3dbfcc405492ca17540598d7204038fac63b",
+      "error": null,
+      "id": "1641527410191"
+    }
+  },
+  "deployContract": {
+    "getAddressUtxos": {
+      "jsonrpc": "2.0",
+      "result": [
+        {
+          "address": "TUiJuojfRjhZsUgZSa4BGRzAELVQJXgdjs",
+          "txid": "5e8fbdc128653fa5a1c730c2db75595b48f013ee420da2d13ac04e575c9bf506",
+          "outputIndex": 1,
+          "script": "76a9147f288a70fea402dcf5ddbadd155ae7545af4fae088ac",
+          "satoshis": 484010000000,
+          "height": 74692
+        }
+      ],
+      "id": "1640800890789"
+    },
+    "sendRawTransaction": {
+      "result": "1ddc27b22c7303d705e2ab5a693492eb1c72390f271cbd0a28207e7c8f429d6a",
+      "error": null,
+      "id": "1641527410191"
+    }
+  }
+}
